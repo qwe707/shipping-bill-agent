@@ -1,0 +1,91 @@
+[
+  {
+    "document_info": {
+      "document_type": "invoice",
+      "reference_no": "INV1",
+      "document_date": "2026-11-06",
+      "bl_no": null,
+      "booking_no": null,
+      "container_no": null
+    },
+    "transaction_party": {
+      "issuer": "Carrier",
+      "recipient": "ACME",
+      "payer": "ACME",
+      "payee": "Carrier"
+    },
+    "charge_details": {
+      "charge_item": "Freight",
+      "amount": 100,
+      "currency": "USD",
+      "payment_term": null,
+      "quantity": null,
+      "unit_price": null,
+      "subtotal": null,
+      "tax": null,
+      "total": null
+    },
+    "financial_attributes": {
+      "posting_type": "AP",
+      "accounting_entity": "ACME"
+    },
+    "operation": "CREATE",
+    "audit_trail": {
+      "original_charge_name": "Freight",
+      "issues": [],
+      "changes": [],
+      "evidence": {
+        "document_type": {
+          "chunk_id": "051c6916c6b6-c1",
+          "quote": "invoice"
+        },
+        "reference_no": {
+          "chunk_id": "051c6916c6b6-c1",
+          "quote": "INV1"
+        },
+        "date": {
+          "chunk_id": "051c6916c6b6-c1",
+          "quote": "2026-11-06"
+        },
+        "issuer": {
+          "chunk_id": "051c6916c6b6-c1",
+          "quote": "Carrier"
+        },
+        "recipient": {
+          "chunk_id": "051c6916c6b6-c1",
+          "quote": "ACME"
+        },
+        "charge_item": {
+          "chunk_id": "051c6916c6b6-c1",
+          "quote": "Freight"
+        },
+        "amount": {
+          "chunk_id": "051c6916c6b6-c1",
+          "quote": "100"
+        },
+        "currency": {
+          "chunk_id": "051c6916c6b6-c1",
+          "quote": "USD"
+        },
+        "payer": {
+          "chunk_id": "051c6916c6b6-c1",
+          "quote": "ACME"
+        },
+        "payee": {
+          "chunk_id": "051c6916c6b6-c1",
+          "quote": "Carrier"
+        }
+      },
+      "explicit_updates": [],
+      "provenance": [
+        {
+          "id": "051c6916c6b6-c1",
+          "name": "invoice.json",
+          "locator": "body",
+          "source_method": "text"
+        }
+      ],
+      "simulation": true
+    }
+  }
+]

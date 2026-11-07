@@ -1,0 +1,62 @@
+{
+  "simulation": true,
+  "notice": "Synthetic demonstration only, not a real invoice",
+  "source_text": "Synthetic invoice",
+  "records": [
+    {
+      "document_type": "invoice",
+      "reference_no": "INV1",
+      "date": "2026-11-06",
+      "issuer": "Carrier",
+      "recipient": "ACME",
+      "charge_item": "Freight",
+      "amount": "100",
+      "currency": "USD",
+      "payer": "ACME",
+      "payee": "Carrier",
+      "evidence": {
+        "document_type": {
+          "chunk_id": "demo",
+          "quote": "invoice"
+        },
+        "reference_no": {
+          "chunk_id": "demo",
+          "quote": "INV1"
+        },
+        "date": {
+          "chunk_id": "demo",
+          "quote": "2026-11-06"
+        },
+        "issuer": {
+          "chunk_id": "demo",
+          "quote": "Carrier"
+        },
+        "recipient": {
+          "chunk_id": "demo",
+          "quote": "ACME"
+        },
+        "charge_item": {
+          "chunk_id": "demo",
+          "quote": "Freight"
+        },
+        "amount": {
+          "chunk_id": "demo",
+          "quote": "100"
+        },
+        "currency": {
+          "chunk_id": "demo",
+          "quote": "USD"
+        },
+        "payer": {
+          "chunk_id": "demo",
+          "quote": "ACME"
+        },
+        "payee": {
+          "chunk_id": "demo",
+          "quote": "Carrier"
+        }
+      },
+      "explicit_updates": []
+    }
+  ]
+}
